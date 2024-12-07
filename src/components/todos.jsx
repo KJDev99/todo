@@ -65,7 +65,7 @@ export default function Todos() {
         +
       </button>
       {modal && (
-        <div className="absolute left-[50%] top-[50%] py-2 px-4 rounded bg-slate-600 text-white w-1/4 translate-x-[-50%] translate-y-[-50%]">
+        <div className="absolute left-[50%] top-[50%] py-2 px-4 rounded bg-slate-600 text-white  w-1/4 max-md:w-full translate-x-[-50%] translate-y-[-50%]">
           <h2 className="text-center mb-4">MODAL</h2>
           <input
             type="text"
